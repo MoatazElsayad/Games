@@ -95,7 +95,7 @@ def hangman(word, hints):
 
 # Function to print hangman using ASCII art.
 def print_hangman(win):
-    if win:
+    if not win:
         print(
         """
      |
